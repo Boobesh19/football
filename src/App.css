@@ -1,0 +1,56 @@
+/* --- CSS (App.css) --- */
+.penalty-game {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.teams {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.team {
+  margin: 0 50px;
+}
+
+.team img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.dot.goal {
+  background-color: green;
+}
+
+.dot.miss {
+  background-color: red;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.winner {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
